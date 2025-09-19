@@ -42,7 +42,8 @@ chat_room/
 ## 编译方法
 
 1. 确保系统安装了`gcc(GNU Compiler Collection)`
-2. 运行自动编译脚本：
+2. 将自动编译脚本(automake.sh)中的PROJECT环境变量修改为实际项目目录
+3. 运行自动编译脚本：
 
 ```bash
 chmod +x automake.sh
