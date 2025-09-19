@@ -7,7 +7,7 @@
 ```
 chat_room/
 ├── exec/                 # 可执行文件输出目录
-├── lib/                  # 共享库输出目录
+├── lib/                  # 共享库存放目录
 ├── source/
 │   ├── cli/              # 客户端源代码
 │   │   ├── connector.c   # 服务器连接功能
@@ -41,7 +41,7 @@ chat_room/
 
 ## 编译方法
 
-1. 确保系统安装了`gcc`和`ncursesw`库
+1. 确保系统安装了`gcc(GNU Compiler Collection)`
 2. 运行自动编译脚本：
 
 ```bash
