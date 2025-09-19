@@ -39,6 +39,9 @@ chat_room/
 - 基于消息队列的进程间通信
 - 线程安全的操作处理
 
+  <img width="619" height="843" alt="image" src="https://github.com/user-attachments/assets/932dd4dd-6884-47f8-8ee8-603ddce9d474" />
+
+
 ## 编译方法
 
 1. 确保系统安装了`gcc(GNU Compiler Collection)`
@@ -104,3 +107,8 @@ chmod +x automake.sh
 - TYPE8: 退出房间请求
 
 每种消息类型都有特定的数据结构和大小定义，确保通信的一致性和正确性。
+
+客户端实现流程图
+<img width="2231" height="1861" alt="LOCAL聊天室_client 1 1 drawio" src="https://github.com/user-attachments/assets/07dffd41-dbc3-4ede-be3d-f8fa8acde9fb" />
+服务端实现流程图
+<img width="2108" height="2689" alt="LOCAL聊天室_server 1 1 drawio" src="https://github.com/user-attachments/assets/60042c08-2f08-43e5-9525-7b400e377cea" />
